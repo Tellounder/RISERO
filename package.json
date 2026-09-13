@@ -1,0 +1,39 @@
+{
+  "name": "rise-difusion-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Caso de estudio de TELLOUNDER: landing y panel administrable para Rise Difusión.",
+  "homepage": "https://risedifusion.com.ar/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tellounder/RISERO.git"
+  },
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "context:search": "node scripts/context.mjs search",
+    "context:check": "node scripts/context.mjs check"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.3.1",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "firebase": "^12.17.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  }
+}

@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.firebase/
+firebase-debug.log*
+*.log
+*firebase-adminsdk*.json
+*.service-account.json
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+coverage/
+playwright-report/
+test-results/
+.DS_Store
+
+# Archivo local ajeno a RISERO
+0317.webp
